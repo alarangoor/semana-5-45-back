@@ -4,9 +4,7 @@ const cors = require('cors');
 const router = require('./routes');
 const path = require('path');
 
-
 const bodyParser = require('body-parser');
-
 
 const app = express();
 app.use(morgan('dev'));
@@ -21,8 +19,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/api', router);
 
 app.set('port', process.env.PORT || 3000);
-
-
 
 if (process.env.NODE_ENV !== 'test') {
     app.listen(app.get('port'), () => {
