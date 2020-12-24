@@ -1,9 +1,9 @@
 {
     "development": {
-        "username": "root",
-        "password": null,
-        "database": "proyectof_s4",
-        "host": "127.0.0.1",
+        "username": "XdmUrnPWNM",
+        "password": "Kr9jFrLc4z",
+        "database": "XdmUrnPWNM",
+        "host": "remotemysql.com",
         "dialect": "mysql"
     },
     "test": {
